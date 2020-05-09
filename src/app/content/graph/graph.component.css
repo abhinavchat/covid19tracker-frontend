@@ -1,0 +1,17 @@
+#divConfirmedChart {
+    display:block;
+    width: 800px;
+    height:400px;
+}
+
+#divActiveChart {
+    display:block;
+    width: 800px;
+    height:400px;
+}
+
+#divDeathChart {
+    display:block;
+    width: 800px;
+    height:400px;
+}

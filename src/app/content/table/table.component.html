@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-xs-12">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name of the State</th>
+                    <th>Total Confirmed Cases</th>
+                    <th>Active</th>
+                    <th>Recovered</th>
+                    <th>Deceased</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let row of statewise_data">
+                    <td>{{ row.state }}</td>
+                    <td>{{ row.confirmed }}</td>
+                    <td>{{ row.active }}</td>
+                    <td>{{ row.recovered }}</td>
+                    <td>{{ row.deaths }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
