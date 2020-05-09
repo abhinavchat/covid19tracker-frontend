@@ -31,7 +31,6 @@ export class GraphComponent implements OnInit {
   }
 
   setData(data) {
-    console.log(data);
     this.labels = data["labels"];
     this.confirmedCases = data["confirmedCases"];
     this.activeCases = data["activeCases"];

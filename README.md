@@ -1,5 +1,8 @@
 # Covid19trackerFrontend
 
+## About
+>> This project aims to track the impact of [`SARS-CoV-2`](https://www.covid19india.org/) in different parts of India. The information displayed here is consumed from different Api's available freely.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
 ## Development server
