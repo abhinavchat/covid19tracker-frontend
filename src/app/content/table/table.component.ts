@@ -20,11 +20,15 @@ export class TableComponent implements OnInit {
 
   ngOnInit(): void {
     this.getStateData()
-      .subscribe(data => this.statewise_data = data["statewise"]);
+      .subscribe(data => this.setData(data["statewise"]));
   }
 
   getStateData(): Observable<IState[]> {
     return this.http.get<IState[]>(this._url);
+  }
+
+  setData(data) {
+    this.statewise_data = data.filter(k => k["state"] != "Total");
   }
 
 }
