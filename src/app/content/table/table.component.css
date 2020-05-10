@@ -1,0 +1,7 @@
+.total {
+    background-color: lightgrey;
+}
+
+.total > td:first-child {
+    font-weight: 600;
+}
